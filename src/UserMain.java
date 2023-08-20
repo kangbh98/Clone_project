@@ -6,6 +6,7 @@ public class UserMain {
         UserUi userUI = new UserUi();
         UserDao userDao = new UserDao("C:\\Users\\user\\Desktop\\Order_manageProject\\users.dat");
         List<User> users = userDao.getUsers();
+        
         while (true) {
             int menuId = userUI.menu();
             if (menuId == 5) {
@@ -18,6 +19,12 @@ public class UserMain {
                 System.out.println("등록되었습니다");
             } else if(menuId==2){
                 userUI.printUserList(users);
+            } else if (menuId==4) {
+                userUI.fixUserList(users);
+                System.out.println("수정되었습니다.");
+            } else if (menuId==3) {
+                userUI.DeleteUserList(users);
+                System.out.println("삭제되었습니다.");
             }
         }
     }
