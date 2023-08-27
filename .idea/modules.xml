@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Order_manageProject.iml" filepath="$PROJECT_DIR$/Order_manageProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clone Project/Clone Project.iml" filepath="$PROJECT_DIR$/Clone Project/Clone Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clone_project.iml" filepath="$PROJECT_DIR$/Clone_project.iml" />
     </modules>
   </component>
 </project>

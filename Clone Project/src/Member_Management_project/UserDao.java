@@ -16,7 +16,8 @@ public class UserDao{
         try(ObjectOutputStream out = new ObjectOutputStream((new FileOutputStream(filename)))){
             out.writeObject(users);
         }catch (Exception ex){
-            ex.printStackTrace();
+            ex.printStackTrace()
+            ;
         }
     }
     public List<User> getUsers(){
